@@ -12,7 +12,7 @@ The script create same folder structure with all git repos you already have on o
 - [x] Then and copy and run **restore-repos-list.sh** on new machine
 
 ```sh
-./
+./create-repos-list.sh
 # or
 ./restore-repos-list.sh
 ```
