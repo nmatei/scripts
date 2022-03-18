@@ -9,7 +9,6 @@ The script will re create same folder structures with all git repos you already 
 ### Running:
 - [x] Download/clone and edit [create-repos-list.sh](create-repos-list.sh) and update main **folders** where you have cloned your apps
     ```sh
-    # Folders that you want to backup (no commas in array)
     declare -a folders=(
         "/c/Products"
         "/c/Products/extra-packages"
@@ -31,13 +30,8 @@ Content of **restore-repos-list.sh**:
 ```sh
 mkdir /c/Products
 cd /c/Products
-
-# node-api
 git clone git@github.com:nmatei/node-api.git node-api
-echo ""
-
-# scripts
 git clone git@github.com:nmatei/scripts.git scripts
-echo ""
+# ...
 ```
 
