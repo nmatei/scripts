@@ -14,6 +14,7 @@
 out=/c/Products/restore-repos-list.sh
 
 # no commas in array
+# folders that you want to backup
 declare -a folders=(
 	"/c/Products"
 	#"/c/Products/extra-packages"
