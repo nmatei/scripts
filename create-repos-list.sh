@@ -10,15 +10,22 @@
 #
 # ==========================================
 
-# TODO create in current folder or get as param
-out=/c/Products/restore-repos-list.sh
-
-# no commas in array
-# folders that you want to backup
+# Folders that you want to backup (no commas in array)
 declare -a folders=(
 	"/c/Products"
-	#"/c/Products/extra-packages"
+	"/c/SDL-Products"
+	"/c/SDL-Products/sdl-extjs-packages"
 )
+
+# ==========================================
+# Output
+# ==========================================
+
+BASEDIR="$( cd "$( dirname "$0" )" && pwd )"
+echo "Script location: ${BASEDIR}"
+
+# TODO create in current folder or get as param
+out=$BASEDIR/restore-repos-list.sh
 
 # ==========================================
 # ==========================================
