@@ -2,6 +2,12 @@
 
 Custom Scripts for your workstation!
 
+## Sleep PC after specified time
+
+```sh
+./sleep-pc.bat
+```
+
 ## create-repos-list.sh - Backup your git repos structure
 
 Usefull when move to a new device and have to clone many git projects.
