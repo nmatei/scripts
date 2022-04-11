@@ -4,6 +4,9 @@ Custom Scripts for your workstation!
 
 ## Sleep PC after specified time
 
+Run in windows with cmd (double click on it).
+Will ask to specify number of minutes to wait before PC sleep.
+
 ```sh
 ./sleep-pc.bat
 ```
