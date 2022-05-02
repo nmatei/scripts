@@ -34,7 +34,7 @@ rem "%ProgramFiles%\Winamp\CLAmp.exe" /STOPFADE
 
 echo Sleeping...
 
-rem rundll32.exe powrprof.dll,SetSuspendState 0,1,0
+rundll32.exe powrprof.dll,SetSuspendState 0,1,0
 
 goto end
 
