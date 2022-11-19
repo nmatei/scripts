@@ -2,6 +2,18 @@
 
 Custom Scripts for your workstation!
 
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+
+
+- [Sleep PC after specified time](#sleep-pc-after-specified-time)
+- [create-repos-list.sh - Backup your git repos structure](#create-repos-listsh---backup-your-git-repos-structure)
+  - [Running:](#running)
+  - [create-repos-list.sh - results](#create-repos-listsh---results)
+- [Reseting Network DNS Servers to auto](#reseting-network-dns-servers-to-auto)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 ## Sleep PC after specified time
 
 Run in windows with cmd (double click on it).

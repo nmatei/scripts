@@ -1,0 +1,25 @@
+{
+  "name": "scripts",
+  "version": "1.0.0",
+  "description": "Custom Scripts for your workstation!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "doctoc": "doctoc README.md"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nmatei/scripts.git"
+  },
+  "keywords": [
+    "scripts",
+    "sh",
+    "git"
+  ],
+  "author": "Matei Nicolae",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nmatei/scripts/issues"
+  },
+  "homepage": "https://github.com/nmatei/scripts#readme"
+}
