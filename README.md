@@ -33,7 +33,7 @@ declare -a folders=(
 ./create-repos-list.sh
 ```
 
-- [x] Then and copy and run **restore-repos-list.sh** on new machine:
+- [x] Then and copy (or backup it) and run **restore-repos-list.sh** on new machine:
 
 ```sh
 ./restore-repos-list.sh
@@ -50,3 +50,9 @@ git clone git@github.com:nmatei/node-api.git node-api
 git clone git@github.com:nmatei/scripts.git scripts
 # ...
 ```
+
+## Reseting Network DNS Servers to auto
+
+If your network stuched with static DHCP after VPN disconnected and wish to reset it faster to 'auto':
+
+Right Click on [wifi-auto-dhcp.bat](wifi-auto-dhcp.bat) -> Run as administrator
