@@ -5,7 +5,6 @@ Custom Scripts for your workstation!
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 
-
 - [Sleep PC after specified time](#sleep-pc-after-specified-time)
 - [create-repos-list.sh - Backup your git repos structure](#create-repos-listsh---backup-your-git-repos-structure)
   - [Running:](#running)
@@ -65,6 +64,7 @@ git clone git@github.com:nmatei/scripts.git scripts
 
 ## Reseting Network DNS Servers to auto
 
-If your network stuched with static DHCP after VPN disconnected and wish to reset it faster to 'auto':
+If your network stuched with static DHCP after VPN disconnected and wish to reset it faster to 'auto'.
+First time make sure to Rename Network Adapter to `Wi-Fi`, or edit `SET NAME="Wi-Fi"` in wifi-auto-dhcp.bat.
 
-Right Click on [wifi-auto-dhcp.bat](wifi-auto-dhcp.bat) -> Run as administrator
+- [x] Right Click on [wifi-auto-dhcp.bat](wifi-auto-dhcp.bat) -> Run as administrator
