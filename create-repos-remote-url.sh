@@ -15,7 +15,6 @@
 declare -a folders=(
 	"/c/Products"
 	"/c/SDL-Products"
-	"/c/SDL-Products"
 	"/c/SDL-Products/sdl-extjs-packages"
 )
 
