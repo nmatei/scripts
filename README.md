@@ -5,13 +5,16 @@ Custom Scripts for your workstation!
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 
+
 - [Sleep PC after specified time](#sleep-pc-after-specified-time)
 - [create-repos-list.sh - Backup your git repos structure](#create-repos-listsh---backup-your-git-repos-structure)
   - [Running:](#running)
   - [create-repos-list.sh - results](#create-repos-listsh---results)
+- [create-repos-remote-url.sh - Backup your git repos remote-url](#create-repos-remote-urlsh---backup-your-git-repos-remote-url)
 - [Reseting Network DNS Servers to auto](#reseting-network-dns-servers-to-auto)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 
 ## Sleep PC after specified time
 
@@ -21,6 +24,7 @@ Will ask to specify number of minutes to wait before PC sleep.
 ```sh
 ./sleep-pc.bat
 ```
+
 
 ## create-repos-list.sh - Backup your git repos structure
 
@@ -61,6 +65,21 @@ git clone git@github.com:nmatei/node-api.git node-api
 git clone git@github.com:nmatei/scripts.git scripts
 # ...
 ```
+
+
+## create-repos-remote-url.sh - Backup your git repos remote-url
+
+Usefull when migrate to a new git server and want to update all your repos remote url (git remote set-url)
+The scrill will generate a list with all projects already cloned.
+
+- change folders same as [create-repos-listsh](#create-repos-listsh---backup-your-git-repos-structure)
+- find/replace server url in generated `update-repos-remote-url.sh`
+- then run:
+```sh
+./update-repos-remote-url.sh
+```
+
+check `git remote -v` inside any repos to see if they are changed
 
 ## Reseting Network DNS Servers to auto
 
