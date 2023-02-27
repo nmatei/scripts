@@ -74,7 +74,7 @@ The scrill will generate a list with all projects already cloned.
 
 - change folders same as [create-repos-listsh](#create-repos-listsh---backup-your-git-repos-structure)
 - find/replace server url in generated `update-repos-remote-url.sh`
-- then run:
+- run [update-repos-remote-url.sh](update-repos-remote-url.sh) using **git bash** terminal:
 ```sh
 ./update-repos-remote-url.sh
 ```

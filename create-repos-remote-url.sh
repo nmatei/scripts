@@ -86,7 +86,7 @@ parseFolders()
 			echo "
 echo -e \"${BYellow}$app${NC}\"
 cd $app
-git remote set-url origin $path
+git remote set-url origin \"$path\"
 cd .." >> $out
 		else
 			echo -e "    ${Red}not a git folder!${NC}"
