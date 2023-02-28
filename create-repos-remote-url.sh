@@ -18,6 +18,7 @@ declare -a folders=(
 	"/c/SDL-Products/sdl-extjs-packages"
 )
 
+## TODO - if folder not found - make sure is not failing
 # ==========================================
 # Output
 # ==========================================

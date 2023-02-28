@@ -86,4 +86,4 @@ check `git remote -v` inside any repos to see if they are changed
 If your network stuched with static DHCP after VPN disconnected and wish to reset it faster to 'auto'.
 First time make sure to Rename Network Adapter to `Wi-Fi`, or edit `SET NAME="Wi-Fi"` in wifi-auto-dhcp.bat.
 
-- [x] Right Click on [wifi-auto-dhcp.bat](wifi-auto-dhcp.bat) -> Run as administrator
+- [x] Right Click on [wifi-auto-dhcp.bat](wifi-auto-dhcp.bat) -> 🛡 Run as administrator
