@@ -1,0 +1,1 @@
+start "" /normal "C:\Program Files\Git\git-bash.exe"
